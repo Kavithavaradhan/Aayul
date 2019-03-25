@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Activity4">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="118dp"
+        android:layout_marginLeft="118dp"
+        android:layout_marginTop="19dp"
+        android:text="Aayul"
+        android:textAlignment="center"
+        android:textSize="50sp"
+        android:textStyle="bold"
+        android:typeface="serif" />
+
+
+    <TextView
+        android:layout_width="115dp"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/displaytxt"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginStart="47dp"
+        android:layout_marginLeft="47dp"
+        android:layout_marginTop="2dp"
+        android:text="Soil Type"
+        android:textSize="22sp"
+        android:textStyle="bold" />
+
+
+    <TextView
+        android:id="@+id/displaytxt"
+        android:layout_width="186dp"
+        android:layout_height="40dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="105dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginRight="10dp"
+        android:textAlignment="center"
+        android:textSize="20sp"
+        tools:layout_editor_absoluteX="59dp"
+        tools:layout_editor_absoluteY="30dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/displaytxt"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginStart="5dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="68dp"
+        android:text="Expected SBC value"
+        android:textSize="22sp"
+        android:textStyle="bold" />
+
+
+    <TextView
+        android:id="@+id/displaytxt3"
+        android:layout_width="129dp"
+        android:layout_height="47dp"
+        android:layout_alignEnd="@+id/displaytxt"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="175dp"
+        android:layout_marginEnd="1dp"
+        android:textAlignment="center"
+        android:textSize="20sp"
+        tools:layout_editor_absoluteX="59dp"
+        tools:layout_editor_absoluteY="30dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/displaytxt"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginStart="26dp"
+        android:layout_marginLeft="26dp"
+        android:layout_marginTop="146dp"
+        android:text="Your SBC value"
+        android:textSize="22sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/displaytxt2"
+        android:layout_width="129dp"
+        android:layout_height="47dp"
+        android:layout_alignEnd="@+id/displaytxt"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="251dp"
+        android:layout_marginEnd="0dp"
+        android:textAlignment="center"
+        android:textSize="20sp"
+        tools:layout_editor_absoluteX="59dp"
+        tools:layout_editor_absoluteY="30dp" />
+
+    <TextView
+        android:id="@+id/predict"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/displaytxt"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginStart="50dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="226dp"
+        android:text="Prediction"
+        android:textSize="22sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/displaytxt4"
+        android:layout_width="166dp"
+        android:layout_height="50dp"
+        android:layout_alignEnd="@+id/displaytxt"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="330dp"
+        android:layout_marginEnd="0dp"
+        android:textAlignment="center"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="59dp"
+        tools:layout_editor_absoluteY="30dp" />
+
+    <View
+        android:layout_width="348dp"
+        android:layout_height="5dp"
+        android:layout_below="@+id/displaytxt4"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="14dp"
+        android:layout_marginTop="9dp"
+        android:background="@android:color/darker_gray" />
+
+    <TextView
+        android:id="@+id/displaytxt5"
+        android:layout_width="278dp"
+        android:layout_height="73dp"
+        android:layout_alignEnd="@+id/displaytxt"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="402dp"
+        android:layout_marginEnd="35dp"
+        android:textAlignment="center"
+        android:textSize="19sp"
+        tools:layout_editor_absoluteX="59dp"
+        tools:layout_editor_absoluteY="30dp" />
+
+    <View
+        android:layout_width="348dp"
+        android:layout_height="5dp"
+        android:layout_below="@+id/displaytxt4"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="14dp"
+        android:layout_marginTop="98dp"
+        android:background="@android:color/darker_gray" />
+
+    <TextView
+        android:id="@+id/displaytxt6"
+        android:layout_width="352dp"
+        android:layout_height="63dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="-129dp"
+        android:layout_marginBottom="12dp"
+        android:layout_toStartOf="@+id/displaytxt3"
+        android:textAlignment="center"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+
+
+
+
+</RelativeLayout>
